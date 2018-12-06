@@ -1,1 +1,8 @@
-.
+#board_and_info{
+    position: relative;
+}
+
+#infoscreen{
+    position: absolute;
+    top: 50px;
+}
