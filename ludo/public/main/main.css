@@ -1,8 +1,129 @@
-#board_and_info{
-    position: relative;
-}
-
 #infoscreen{
     position: absolute;
-    top: 50px;
+    top: 5%;
+    right: 5%;
+}
+
+/*interactable buttons*/
+
+#dice{
+    position: absolute;
+    bottom: 1%;
+    right: 20%;
+}
+
+/* startingpoints*/
+
+.startpoint_blue{
+    position: absolute;
+    top: 60%;
+    right: 45%;
+}
+
+#blue_paper{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+#blue_paper2{
+    position: absolute;
+    top: 5%;
+    right: 45%;
+}
+#blue_paper3{
+    position: absolute;
+    top: 45%;
+    right: 45%;
+}
+#blue_paper4{
+    position: absolute;
+    top: 45%;
+    right: 5%;
+}
+
+
+
+.startpoint_red{
+    position: absolute;
+    top: 10%;
+    right: 80%;
+}
+
+#red_paper{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+#red_paper2{
+    position: absolute;
+    top: 5%;
+    right: 45%;
+}
+#red_paper3{
+    position: absolute;
+    top: 45%;
+    right: 45%;
+}
+#red_paper4{
+    position: absolute;
+    top: 45%;
+    right: 5%;
+}
+
+
+
+.startpoint_yellow{
+    position: absolute;
+    top: 60%;
+    right: 80%;
+}
+
+#yellow_paper{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+#yellow_paper2{
+    position: absolute;
+    top: 5%;
+    right: 45%;
+}
+#yellow_paper3{
+    position: absolute;
+    top: 45%;
+    right: 45%;
+}
+#yellow_paper4{
+    position: absolute;
+    top: 45%;
+    right: 5%;
+}
+
+
+
+.startpoint_green{
+    position: absolute;
+    top: 10%;
+    right: 45%;
+}
+
+#green_paper{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+}
+#green_paper2{
+    position: absolute;
+    top: 5%;
+    right: 45%;
+}
+#green_paper3{
+    position: absolute;
+    top: 45%;
+    right: 45%;
+}
+#green_paper4{
+    position: absolute;
+    top: 45%;
+    right: 5%;
 }
