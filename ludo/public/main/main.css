@@ -127,3 +127,95 @@
     top: 45%;
     right: 5%;
 }
+
+/*all the circles*/
+.cirkel > * {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: transparent;
+    border-color: black;
+    border: solid;
+}
+
+/*left side of the board*/
+#cirkel0{position: absolute; top: 85%; right: 70%}
+#cirkel1{position: absolute; top: 85%; right: 66%;}
+#cirkel2{position: absolute; top: 78%; right: 70%;  background-color: yellow;}
+#cirkel3{position: absolute; top: 71%; right: 70%;}
+#cirkel4{position: absolute; top: 64%; right: 70%;}
+#cirkel5{position: absolute; top: 57%; right: 70%;}
+#cirkel6{position: absolute; top: 50%; right: 70%;}
+#cirkel7{position: absolute; top: 50%; right: 74%;}
+#cirkel8{position: absolute; top: 50%; right: 78%;}
+#cirkel9{position: absolute; top: 50%; right: 82%;}
+#cirkel10{position: absolute; top: 50%; right: 86%;}
+#cirkel11{position: absolute; top: 50%; right: 90%;}
+#cirkel12{position: absolute; top: 43%; right: 90%;}
+#cirkel13{position: absolute; top: 36%; right: 90%;}
+#cirkel14{position: absolute; top: 36%; right: 86%; background-color: red;}
+#cirkel15{position: absolute; top: 36%; right: 82%;}
+#cirkel16{position: absolute; top: 36%; right: 78%;}
+#cirkel17{position: absolute; top: 36%; right: 74%;}
+#cirkel18{position: absolute; top: 36%; right: 70%;}
+#cirkel19{position: absolute; top: 29%; right: 70%;}
+#cirkel20{position: absolute; top: 22%; right: 70%;}
+#cirkel21{position: absolute; top: 15%; right: 70%;}
+#cirkel22{position: absolute; top: 8%; right: 70%;}
+#cirkel23{position: absolute; top: 1%; right: 70%;}
+
+/*right side of the board*/
+#cirkel24{position: absolute; top: 1%; right: 66%;}
+#cirkel25{position: absolute; top: 1%; right: 62%;}
+#cirkel26{position: absolute; top: 8%; right: 62%; background-color: rgb(13, 253, 5);}
+#cirkel27{position: absolute; top: 15%; right: 62%;}
+#cirkel28{position: absolute; top: 22%; right: 62%;}
+#cirkel29{position: absolute; top: 29%; right: 62%;}
+#cirkel30{position: absolute; top: 36%; right: 62%;}
+#cirkel31{position: absolute; top: 36%; right: 58%;}
+#cirkel32{position: absolute; top: 36%; right: 54%;}
+#cirkel33{position: absolute; top: 36%; right: 50%;}
+#cirkel34{position: absolute; top: 36%; right: 46%;}
+#cirkel35{position: absolute; top: 36%; right: 42%;}
+#cirkel36{position: absolute; top: 43%; right: 42%;}
+#cirkel37{position: absolute; top: 50%; right: 42%;}
+#cirkel38{position: absolute; top: 50%; right: 46%; background-color: blue;}
+#cirkel39{position: absolute; top: 50%; right: 50%;}
+#cirkel40{position: absolute; top: 50%; right: 54%;}
+#cirkel41{position: absolute; top: 50%; right: 58%;}
+#cirkel42{position: absolute; top: 50%; right: 62%;}
+#cirkel43{position: absolute; top: 57%; right: 62%;}
+#cirkel44{position: absolute; top: 64%; right: 62%;}
+#cirkel45{position: absolute; top: 71%; right: 62%;}
+#cirkel46{position: absolute; top: 78%; right: 62%;}
+#cirkel47{position: absolute; top: 85%; right: 62%;}
+#finish{position: absolute; top: 43%; right: 66%; background-color: gold; border-radius: 20%;}
+
+/*green circles*/
+#greencirkel1{position: absolute; top: 8%; right: 66%; background-color: rgb(13, 253, 5);}
+#greencirkel2{position: absolute; top: 15%; right: 66%; background-color: rgb(13, 253, 5);}
+#greencirkel3{position: absolute; top: 22%; right: 66%; background-color: rgb(13, 253, 5);}
+#greencirkel4{position: absolute; top: 29%; right: 66%; background-color: rgb(13, 253, 5);}
+#greencirkel5{position: absolute; top: 36%; right: 66%; background-color: rgb(13, 253, 5);}
+
+/*red circles*/
+#redcirkel1{position: absolute; top: 43%; right: 86%; background-color: red;}
+#redcirkel2{position: absolute; top: 43%; right: 82%; background-color: red;}
+#redcirkel3{position: absolute; top: 43%; right: 78%; background-color: red;}
+#redcirkel4{position: absolute; top: 43%; right: 74%; background-color: red;}
+#redcirkel5{position: absolute; top: 43%; right: 70%; background-color: red;}
+
+/*yellow circles*/
+#yellowcirkel1{position: absolute; top: 78%; right: 66%; background-color: yellow;}
+#yellowcirkel2{position: absolute; top: 71%; right: 66%; background-color: yellow;}
+#yellowcirkel3{position: absolute; top: 64%; right: 66%; background-color: yellow;}
+#yellowcirkel4{position: absolute; top: 57%; right: 66%; background-color: yellow;}
+#yellowcirkel5{position: absolute; top: 50%; right: 66%; background-color: yellow;}
+
+/*blue circles*/
+#bluecirkel1{position: absolute; top: 43%; right: 46%; background-color: blue;}
+#bluecirkel2{position: absolute; top: 43%; right: 50%; background-color: blue;}
+#bluecirkel3{position: absolute; top: 43%; right: 54%; background-color: blue;}
+#bluecirkel4{position: absolute; top: 43%; right: 58%; background-color: blue;}
+#bluecirkel5{position: absolute; top: 43%; right: 62%; background-color: blue;}
+
