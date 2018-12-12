@@ -1,1 +1,77 @@
-.
+/*decorative papers*/
+#red_paper{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+}
+#green_paper{
+    position: absolute;
+    bottom: 15%;
+    right: 10%;
+    height: 150px;
+    width: 150px;
+}
+#blue_paper{
+    position: absolute;
+    bottom: 15%;
+    height: 150px;
+    width: 150px;
+}
+#yellow_paper{
+    position: absolute;
+    right: 10%;
+    height: 150px;
+    width: 150px;
+}
+
+/*menu*/
+.splash-screen > *{
+    position: absolute;
+    top: 10%;
+    right: 27%;
+    height: 500px;
+    width: 750px;
+    border-radius: 10%;
+    background-color: silver;
+    color: rgb(3, 121, 194);
+    border-width: 50px;
+    border: solid;
+}
+
+#nrOfPlayersMenu{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    height: 300px;
+    width: 200px;
+    border-radius: 10%;
+    background-color: rgb(115, 117, 224);
+    color: rgb(3, 67, 107);
+    border-width: 50px;
+    border: solid;
+}
+
+#gameType{
+    position: absolute;
+    top: 30%;
+    right: 5%;
+    height: 300px;
+    width: 200px;
+    border-radius: 10%;
+    background-color: rgb(115, 117, 224);
+    color: rgb(3, 67, 107);
+    border-width: 50px;
+    border: solid;
+}
+
+#playButton{
+    position: absolute;
+    bottom: 10%;
+    right: 50%;
+    border-radius: 5%;
+    background-color: lightgrey;
+    color: rgb(3, 121, 194);
+    height: 50px;
+    width: 100px;
+    border: solid;
+}

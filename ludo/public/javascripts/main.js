@@ -48,6 +48,11 @@ var yellowPaper1 = new Paper("yellow", "1");
 // }
 
 function dice_roll(){
+	var dice_sound = new Audio("../sounds/dice.wav");
+	dice_sound.play();
+	document.getElementById("dice_image").src="";
+
+	setTimeout(function(){
 	var diceNumber = getRandomInt(1, 6);
 	if(diceNumber == 1){
 		document.getElementById("dice_image").src="../images/Dice1.png";
@@ -67,6 +72,7 @@ function dice_roll(){
 	else if(diceNumber == 6){
 		document.getElementById("dice_image").src="../images/Dice6.png";
 	}
+} ,2000);
 }
 
 function getRandomInt(min, max) {
