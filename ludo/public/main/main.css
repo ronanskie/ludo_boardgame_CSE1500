@@ -148,6 +148,7 @@
     border-radius: 50%;
     background-color: transparent;
     border-color: black;
+    border: solid;
 }
 
 /*left side of the board*/

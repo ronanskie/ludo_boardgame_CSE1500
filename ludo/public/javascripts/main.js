@@ -50,7 +50,7 @@ var yellowPaper1 = new Paper("yellow", "1");
 function dice_roll(){
 	var dice_sound = new Audio("../sounds/dice.wav");
 	dice_sound.play();
-	document.getElementById("dice_image").src="";
+	document.getElementById("dice_image").src="../images/EmptyDice.png";
 
 	setTimeout(function(){
 	var diceNumber = getRandomInt(1, 6);
@@ -79,4 +79,16 @@ function getRandomInt(min, max) {
     min = Math.ceil(min);
     max = Math.floor(max);
     return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+
+function player_turn(){
+	var playernumber = (1, 2, 3, 4);
+	var turnnumber = (1, 2, 3, 4);
+
+	if(turnnumber == 1){
+
+		document.getElementById("dice_image").disabled = true;
+	}
+
 }

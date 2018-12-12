@@ -25,7 +25,7 @@
 }
 
 /*menu*/
-.splash-screen > *{
+.splash-screen{
     position: absolute;
     top: 10%;
     right: 27%;
@@ -67,11 +67,95 @@
 #playButton{
     position: absolute;
     bottom: 10%;
-    right: 50%;
-    border-radius: 5%;
+    right: 18%;
+    border-radius: 25%;
+    background-color: lightgrey;
+    color: rgb(3, 121, 194);
+    height: 100px;
+    width: 500px;
+    border: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+}
+
+#twoplayers{
+    position: absolute;
+    bottom: 70%;
+    right: 5%;
+    border-radius: 25%;
     background-color: lightgrey;
     color: rgb(3, 121, 194);
     height: 50px;
-    width: 100px;
+    width: 175px;
     border: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#threeplayers{
+    position: absolute;
+    bottom: 45%;
+    right: 5%;
+    border-radius: 25%;
+    background-color: lightgrey;
+    color: rgb(3, 121, 194);
+    height: 50px;
+    width: 175px;
+    border: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+#fourplayers{
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+    border-radius: 25%;
+    background-color: lightgrey;
+    color: rgb(3, 121, 194);
+    height: 50px;
+    width: 175px;
+    border: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#cpu{
+    position: absolute;
+    bottom: 70%;
+    right: 5%;
+    border-radius: 25%;
+    background-color: lightgrey;
+    color: rgb(3, 121, 194);
+    height: 50px;
+    width: 175px;
+    border: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#online{
+    position: absolute;
+    bottom: 45%;
+    right: 5%;
+    border-radius: 25%;
+    background-color: lightgrey;
+    color: rgb(3, 121, 194);
+    height: 50px;
+    width: 175px;
+    border: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#offline{
+    position: absolute;
+    bottom: 20%;
+    right: 5%;
+    border-radius: 25%;
+    background-color: lightgrey;
+    color: rgb(3, 121, 194);
+    height: 50px;
+    width: 175px;
+    border: solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }

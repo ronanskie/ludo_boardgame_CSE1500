@@ -7,15 +7,24 @@
     <body  background="../images/TexturesCom_PaperCrumpled0004_1_seamless_S.jpg">
         <main>
                     <div class="splash-screen">
-                        <button id="playButton" onclick="start_game()">Play</button>
+                            <form action="/main/main.html" method="get" id="form1"></form>
+                        <button id="playButton" form="form1" onclick="start_game()">Play</button>
                     </div>
                     <div id="highscore"></div>
                     <div id="red_paper"><img src="../images/diceplayerred.png" alt="blue icon"></div>
                     <div id="blue_paper"><img src="../images/diceplayerblue.png" alt="blue icon"></div>
                     <div id="yellow_paper"><img src="../images/diceplayeryellow.png" alt="blue icon"></div>
                     <div id="green_paper"><img src="../images/diceplayergreen.png" alt="blue icon"></div>
-                    <div id="nrOfPlayersMenu"></div>
-                    <div id="gameType"></div>
+                    <div id="nrOfPlayersMenu">                       
+                         <button id="twoplayers" onclick="twoplayers()">2 Players</button>
+                         <button id="threeplayers" onclick="threeplayers()">3 Players</button>
+                         <button id="fourplayers" onclick="fourplayers()">4 Players</button>
+                    </div>
+                    <div id="gameType">
+                        <button id="cpu" onclick="cpu()">CPU</button>
+                        <button id="online" onclick="online()">online</button>
+                        <button id="offline" onclick="offline()">offline</button>
+                    </div>
         </main>
     </body>
 </html>
