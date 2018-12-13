@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Ludo online</title>
-        <link rel="stylesheet" href="../stylesheets/splash.css">
+        <link rel="stylesheet" href="splash.css">
     </head>
     <body  background="../images/TexturesCom_PaperCrumpled0004_1_seamless_S.jpg">
         <main>
@@ -12,6 +12,16 @@
                             </form>
                             <h1>LUDO</h1>
                             <h2>A four player game</h2>
+                            <h3><%= gamesInitialized %> 
+                                <%if (gamesInitialized != 1) { %>
+                                    games
+                                <% } else { %>
+                                    game
+                                <% } %>
+                                initialized, 
+                                <%= gamesCompleted %> 
+                                completed
+                            </h3>
                         <button id="playButton" form="form1" onclick="start_game()">Play</button>
                     </div>
                     <div id="amountOfVisits"></div>

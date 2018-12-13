@@ -38,6 +38,33 @@
     border: solid;
 }
 
+h1{
+    position: absolute;
+    top: -5%;
+    right: 37%;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(61, 173, 243);
+}
+
+h2{
+    position: absolute;
+    top: 25%;
+    right: 38%;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(61, 173, 243);
+}
+
+#amountOfVisits{
+    position: absolute;
+    top: 40%;
+    right: 37%;
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(61, 173, 243);
+}
+
 #nrOfPlayersMenu{
     position: absolute;
     top: 30%;

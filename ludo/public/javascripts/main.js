@@ -19,18 +19,18 @@ game.prototype.transitionStates["C"] = 7; //C won
 game.prototype.transitionStates["D"] = 8; //D won
 game.prototype.transitionStates["ABORTED"] = 9;
 
-game.prototype.transitionMatrix = [
-    [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]  //0 joint
-    [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]  //1 joint
-    [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]  //2 joint
-    [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]  //3 joint
-    [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]  //4 joint
-    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]  //A won
-	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]  //B won
-	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]  //C won
-	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]  //D won
-	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]  ///ABORTED
-];
+// game.prototype.transitionMatrix = [
+//     [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]  //0 joint
+//     [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]  //1 joint
+//     [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]  //2 joint
+//     [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]  //3 joint
+//     [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]  //4 joint
+//     [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]  //A won
+// 	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]  //B won
+// 	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]  //C won
+// 	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]  //D won
+// 	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]  ///ABORTED
+// ];
 
 //the function for the dice
 function dice_roll(){
