@@ -1,52 +1,38 @@
-function Paper(color, number){
-   this.color = color;
-   this.number = number;
-   playerIcon = document.getElementById(yellow_paper);
-}
+var game = function (gameID) {
+    this.playerA = null;
+	this.playerB = null;
+	this.playerC = null;
+	this.playerD = null;
+    this.id = gameID;
+    this.gameState = "0 JOINT"; //"A" means A won, "B" means B won, "ABORTED" means the game was aborted
+};
 
-var yellowPaper1 = new Paper("yellow", "1");
+game.prototype.transitionStates = {};
+game.prototype.transitionStates["0 JOINT"] = 0;
+game.prototype.transitionStates["1 JOINT"] = 1;
+game.prototype.transitionStates["2 JOINT"] = 2;
+game.prototype.transitionStates["3 JOINT"] = 3;
+game.prototype.transitionStates["4 JOINT"] = 4;
+game.prototype.transitionStates["A"] = 5; //A won
+game.prototype.transitionStates["B"] = 6; //B won
+game.prototype.transitionStates["C"] = 7; //C won
+game.prototype.transitionStates["D"] = 8; //D won
+game.prototype.transitionStates["ABORTED"] = 9;
 
-// function dice_roll(){
-//    var diceImages = [{
-//       src: "../images/Dice1.png",
-//    }, {
-//       src: "../images/Dice2.png",
-//    }, {
-//       src: "../images/Dice3.png",
-//    }, {
-//       src: "../images/Dice4.png",
-//    }, {
-//       src: "../images/Dice5.png",
-//    }, {
-//       src: "../images/Dice6.png",
-//    }];
+game.prototype.transitionMatrix = [
+    [1, 0, 0, 0, 0, 0, 0, 0, 0, 0]  //0 joint
+    [0, 1, 0, 0, 0, 0, 0, 0, 0, 0]  //1 joint
+    [0, 0, 1, 0, 0, 0, 0, 0, 0, 0]  //2 joint
+    [0, 0, 0, 1, 0, 0, 0, 0, 0, 0]  //3 joint
+    [0, 0, 0, 0, 1, 0, 0, 0, 0, 0]  //4 joint
+    [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]  //A won
+	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]  //B won
+	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]  //C won
+	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]  //D won
+	[0, 0, 0, 0, 0, 0, 0, 0, 0, 0]  ///ABORTED
+];
 
-//    var preBuffer = [];
-//    for (var i = 0, j = diceImages.length; i < j; i++) {
-//       preBuffer[i] = new Image();
-//       preBuffer[i].src = diceImages[i].src
-//       preBuffer[i].width = diceImages[i].width;
-//       preBuffer[i].height = diceImages[i].height;
-//    }
-
-//    function getRandomInt(min,max)
-//    {
-
-//    imn = Math.floor(Math.random() * (max - min + 1)) + min;
-//       return preBuffer[imn];
-//    }
-
-//    var newImage = getRandomInt(0, preBuffer.length - 1);
-
-//    var Images = document.getElementsByTagName('img');
-//    var l = images.length;
-//    for (var p = 0; p < l; p++){
-//       images[0].parentNode.removeChild(images[0]);
-//    }
-   
-//    document.body.appendChild(newImage);
-// }
-
+//the function for the dice
 function dice_roll(){
 	var dice_sound = new Audio("../sounds/dice.wav");
 	dice_sound.play();

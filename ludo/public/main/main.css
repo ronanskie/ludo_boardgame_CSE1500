@@ -154,7 +154,7 @@
 /*left side of the board*/
 #cirkel0{position: absolute; top: 85%; right: 70%}
 #cirkel1{position: absolute; top: 85%; right: 66%;}
-#cirkel2{position: absolute; top: 78%; right: 70%;  background-color: yellow;}
+#cirkel2{position: absolute; top: 78%; right: 70%;  background-color: rgba(255, 255, 86, 0.37);}
 #cirkel3{position: absolute; top: 71%; right: 70%;}
 #cirkel4{position: absolute; top: 64%; right: 70%;}
 #cirkel5{position: absolute; top: 57%; right: 70%;}
@@ -166,7 +166,7 @@
 #cirkel11{position: absolute; top: 50%; right: 90%;}
 #cirkel12{position: absolute; top: 43%; right: 90%;}
 #cirkel13{position: absolute; top: 36%; right: 90%;}
-#cirkel14{position: absolute; top: 36%; right: 86%; background-color: red;}
+#cirkel14{position: absolute; top: 36%; right: 86%; background-color: rgba(255, 67, 67, 0.37);}
 #cirkel15{position: absolute; top: 36%; right: 82%;}
 #cirkel16{position: absolute; top: 36%; right: 78%;}
 #cirkel17{position: absolute; top: 36%; right: 74%;}
@@ -180,7 +180,7 @@
 /*right side of the board*/
 #cirkel24{position: absolute; top: 1%; right: 66%;}
 #cirkel25{position: absolute; top: 1%; right: 62%;}
-#cirkel26{position: absolute; top: 8%; right: 62%; background-color: rgb(13, 253, 5);}
+#cirkel26{position: absolute; top: 8%; right: 62%; background-color: rgba(88, 255, 82, 0.37);}
 #cirkel27{position: absolute; top: 15%; right: 62%;}
 #cirkel28{position: absolute; top: 22%; right: 62%;}
 #cirkel29{position: absolute; top: 29%; right: 62%;}
@@ -192,7 +192,7 @@
 #cirkel35{position: absolute; top: 36%; right: 42%;}
 #cirkel36{position: absolute; top: 43%; right: 42%;}
 #cirkel37{position: absolute; top: 50%; right: 42%;}
-#cirkel38{position: absolute; top: 50%; right: 46%; background-color: blue;}
+#cirkel38{position: absolute; top: 50%; right: 46%; background-color: rgba(81, 81, 255, 0.37);}
 #cirkel39{position: absolute; top: 50%; right: 50%;}
 #cirkel40{position: absolute; top: 50%; right: 54%;}
 #cirkel41{position: absolute; top: 50%; right: 58%;}
