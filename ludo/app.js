@@ -41,6 +41,22 @@ setInterval(function() {
     }
 }, 50000);
 
+//the game itself
+// var currentGame = new Game(gameStatus.gamesInitialized++);
+var connectionID = 0;//each websocket receives a unique ID
+
+wss.on("connection", function connection(ws) {
+    let con = ws; 
+    con.id = connectionID++;
+    let playerType = currentGame.addPlayer(con);
+    websockets[con.id] = currentGame;
+
+    if (currentGame.hasTwoConnectedPlayers()) {
+        // currentGame = new Game(gameStatus.gamesInitialized++);
+    }
+})
+
+//cookies
 console.log("credentials: " + credentials.cookieSecret);
 app.use(cookies(credentials.cookieSecret));
 http.createServer(app).listen(port);
