@@ -51,7 +51,7 @@ wss.on("connection", function connection(ws) {
     let playerType = currentGame.addPlayer(con);
     websockets[con.id] = currentGame;
 
-    if (currentGame.hasTwoConnectedPlayers()) {
+    if (currentGame.hasFourConnectedPlayers()) {
         // currentGame = new Game(gameStatus.gamesInitialized++);
     }
 })
